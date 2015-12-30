@@ -11,19 +11,6 @@ The incident response process addresses:
 * Workforce training, education, and awareness on information security incidents and required responses; and
 * Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
 
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 02.f - Disciplinary Process
-* 06.f - Prevention of Misuse of Information Assets
-* 11.a - Reporting Information Security Events
-* 11.c - Responsibilities and Procedures
-* 11.a - Reporting Information Security Events
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(5)(i) – Security Awareness and Training
-* 164.308(a)(6) – Security Incident Procedures
-
 ## Incident Management Policies
 
 The healthfinch incident response process follows the process recommended by SANS, an industry leader in security (www.sans.org). Process flows are a direct representation of the SANS process. Review Appendix 1 for a flowchart identifying each phase.
@@ -129,4 +116,17 @@ Individuals needed and responsible to respond to a security incident make up a S
 * Senior Management
 * VP of Engineering
 
+### Applicable Standards from the HITRUST Common Security Framework
 
+* 02.f - Disciplinary Process
+* 06.f - Prevention of Misuse of Information Assets
+* 11.a - Reporting Information Security Events
+* 11.c - Responsibilities and Procedures
+* 11.a - Reporting Information Security Events
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.308(a)(5)(i) – Security Awareness and Training
+* 164.308(a)(6) – Security Incident Procedures
+
+### Applicable Standards from the SOC2 Trust Services Principles

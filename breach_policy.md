@@ -8,21 +8,9 @@ The American Recovery and Reinvestment Act of 2009 (ARRA) was signed into law on
 
 In the case of a breach, healthfinch shall notify all affected Customers. It is the responsibility of the Customers to notify affected individuals.
 
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 11.a Reporting Information Security Events
-* 11.c Responsibilities and Procedures
-
-## Applicable Standards from the HIPAA Security Rule
-
-* Security Incident Procedures - 164.308(a)(6)(i)
-* HITECH Notification in the Case of Breach - 13402(a) and 13402(b)
-* HITECH Timeliness of Notification - 13402(d)(1)
-* HITECH Content of Notification - 13402(f)(1)
-
 ## healthfinch Breach Policy
 
-1. Discovery of Breach: A breach of ePHI shall be treated as “discovered” as of the first day on which such breach is known to the organization, or, by exercising reasonable diligence would have been known to healthfinch (includes breaches by the organization’s Customers, Partners, or subcontractors). Catalyze shall be deemed to have knowledge of a breach if such breach is known or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is a workforce member or Partner of the organization. Following the discovery of a potential breach, the organization shall begin an investigation (see organizational policies for security incident response and/or risk management incident response) immediately, conduct a risk assessment, and based on the results of the risk assessment, begin the process to notify each Customer affected by the breach. Catalyze shall also begin the process of determining what external notifications are required or should be made (e.g., Secretary of Department of Health & Human Services (HHS), media outlets, law enforcement officials, etc.)
+1. Discovery of Breach: A breach of ePHI shall be treated as “discovered” as of the first day on which such breach is known to the organization, or, by exercising reasonable diligence would have been known to healthfinch (includes breaches by the organization’s Customers, Partners, or subcontractors). healthfinch shall be deemed to have knowledge of a breach if such breach is known or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is a workforce member or Partner of the organization. Following the discovery of a potential breach, the organization shall begin an investigation (see organizational policies for security incident response and/or risk management incident response) immediately, conduct a risk assessment, and based on the results of the risk assessment, begin the process to notify each Customer affected by the breach. healthfinch shall also begin the process of determining what external notifications are required or should be made (e.g., Secretary of Department of Health & Human Services (HHS), media outlets, law enforcement officials, etc.)
 2. Breach Investigation: The healthfinch Security Officer shall name an individual to act as the investigator of the breach (e.g., privacy officer, security officer, risk manager, etc.).  The investigator shall be responsible for the management of the breach investigation, completion of a risk assessment, and coordinating with others in the organization as appropriate (e.g., administration, security incident response team, human resources, risk management, public relations, legal counsel, etc.) The investigator shall be the key facilitator for all breach notification processes to the appropriate entities (e.g., HHS, media, law enforcement officials, etc.).  All documentation related to the breach investigation, including the risk assessment, shall be retained for a minimum of six years. A template breach log is located [here](breach.log.pdf).
 3. Risk Assessment: For an acquisition, access, use or disclosure of ePHI to constitute a breach, it must constitute a violation of the HIPAA Privacy Rule. A use or disclosure of ePHI that is incident to an otherwise permissible use or disclosure and occurs despite reasonable safeguards and proper minimum necessary procedures would not be a violation of the Privacy Rule and would not qualify as a potential breach. To determine if an impermissible use or disclosure of ePHI constitutes a breach and requires further notification, the organization will need to perform a risk assessment to determine if there is significant risk of harm to the individual as a result of the impermissible use or disclosure. The organization shall document the risk assessment as part of the investigation in the incident report form noting the outcome of the risk assessment process. The organization has the burden of proof for demonstrating that all notifications to appropriate Customers or that the use or disclosure did not constitute a breach. Based on the outcome of the risk assessment, the organization will determine the need to move forward with breach notification. The risk assessment and the supporting documentation shall be fact specific and address:
 	* Consideration of who impermissibly used or to whom the information was impermissibly disclosed;
@@ -52,7 +40,7 @@ In the case of a breach, healthfinch shall notify all affected Customers. It is 
 
 ## healthfinch PaaS Customer Responsibilities
 
-1. The healthfinch Customer that accesses, maintains, retains, modifies, records, stores, destroys, or otherwise holds, uses, or discloses unsecured ePHI shall, without unreasonable delay and in no case later than 60 calendar days after discovery of a breach, notify Catalyze of such breach. The Customer shall provide Catalyze with the following information:
+1. The healthfinch Customer that accesses, maintains, retains, modifies, records, stores, destroys, or otherwise holds, uses, or discloses unsecured ePHI shall, without unreasonable delay and in no case later than 60 calendar days after discovery of a breach, notify healthfinch of such breach. The Customer shall provide healthfinch with the following information:
 	* A description of what happened, including the date of the breach, the date of the discovery of the breach, and the number of records and Customers affected, if known.
 	* A description of the types of unsecured protected health information that were involved in the breach (such as full name, Social Security number, date of birth, home address, account number, etc.), if known.
 	* A description of the action taken with regard to notification of patients regarding the breach.
@@ -94,3 +82,17 @@ Travis Good, MD
 Co-founder - healthfinch, Inc
 travis@catalyze.io
 303-351-2640
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 11.a Reporting Information Security Events
+* 11.c Responsibilities and Procedures
+
+### Applicable Standards from the HIPAA Security Rule
+
+* Security Incident Procedures - 164.308(a)(6)(i)
+* HITECH Notification in the Case of Breach - 13402(a) and 13402(b)
+* HITECH Timeliness of Notification - 13402(d)(1)
+* HITECH Content of Notification - 13402(f)(1)
+
+### Applicable Standards from the SOC2 Trust Services Principles

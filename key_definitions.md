@@ -1,6 +1,6 @@
 # Key Definitions
 
-* *Application*: An application hosted by healthfinch, either maintained and created by Catalyze, or maintained and created by a Customer or Partner.
+* *Application*: An application hosted by healthfinch, either maintained and created by healthfinch, or maintained and created by a Customer or Partner.
 
 * *Application Level*: Controls and security associated with an Application. In the case of PaaS Customers, healthfinch does not have access to and cannot assure compliance with security standards and policies at the Application Level.
 

@@ -1,18 +1,6 @@
 # Employees Policy
 
-healthfinch is committed to ensuring all workforce members actively address security and compliance in their roles at Catalyze. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
-
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 02.e - Information Security Awareness, Education, and Training
-* 06.e - Prevention of Misuse of Information Assets
-* 07.c - Acceptable Use of Assets
-* 08.j - Controls Against Malicious Code
-* 01.y - Teleworking
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(5)(i) - Security Awareness and Training
+healthfinch is committed to ensuring all workforce members actively address security and compliance in their roles at healthfinch. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
 
 ## Employment Policies
 
@@ -27,6 +15,20 @@ healthfinch is committed to ensuring all workforce members actively address secu
 5. All workforce members are educated about the approved set of tools to be installed on workstations.
 6. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for healthfinch and its Customers and Partners.
 7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
-8. All healthfinch-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by Catalyze, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io*. 
-9. Access to internal healthfinch systems can be requested using this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). All requests for access much be granted to the Catalyze Security Officer. 
+8. All healthfinch-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by healthfinch, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io*. 
+9. Access to internal healthfinch systems can be requested using this [form](https://docs.google.com/a/catalyze.io/forms/d/1RaDg2rsmwY0l_fu2EFDVm7acLXejk_6EVIj62fVK-o0/viewform). All requests for access much be granted to the healthfinch Security Officer. 
 10. Request for modifications of access for any healthfinch employee can be made using  this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 02.e - Information Security Awareness, Education, and Training
+* 06.e - Prevention of Misuse of Information Assets
+* 07.c - Acceptable Use of Assets
+* 08.j - Controls Against Malicious Code
+* 01.y - Teleworking
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.308(a)(5)(i) - Security Awareness and Training
+
+### Applicable Standards from the SOC2 Trust Services Principles

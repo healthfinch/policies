@@ -2,32 +2,6 @@
 
 Access to healthfinch systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization’s information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
 
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 01.d - User Password Management
-* 01.f - Password Use
-* 01.r - Password Management System
-* 01.a - Access Control Policy
-* 01.b - User Registration
-* 01.h - Clear Desk and Clear Screen Policy
-* 01.j - User Authentication for External Connections
-* 01.q - User Identification and Authentication
-* 01.v - Information Access Restriction
-* 02.i - Removal of Access Rights
-* 06.e - Prevention of Misuse of Information Assets
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.308a4iiC Access Establishment and Modification
-* 164.308a3iiB Workforce Clearance Procedures
-* 164.308a4iiB Access Authorization
-* 164.312d Person or Entity Authentication
-* 164.312a2i Unique User Identification
-* 164.308a5iiD Password Management
-* 164.312a2iii Automatic Logoff 
-* 164.310b Workstation Use
-* 164.310c Workstation Security
-* 164.308a3iiC Termination Procedures
 
 ## Access Establishment and Modification
 
@@ -40,7 +14,7 @@ Access to healthfinch systems and application is limited for all users, includin
 * Temporary accounts are not used unless absolutely necessary for business purposes.
 	* Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
 	* Accounts that are inactive for over 90 days are removed.
-* In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of healthfinch Customers to define, and not Catalyze.
+* In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of healthfinch Customers to define, and not healthfinch.
 * Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
 * All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 * Generic accounts are not allowed on healthfinch systems.
@@ -53,7 +27,7 @@ Access to healthfinch systems and application is limited for all users, includin
 
 * The level of security assigned to a user to the organization’s information systems is based on the minimum necessary amount of data access required to carry out legitimate job responsibilities assigned to a user’s job classification and/or to a user needing access to carry out treatment, payment, or healthcare operations.
 * All access requests are treated on a ‘least-access principle”.
-* healthfinch maintains a minimum necessary approach to access to Customer data. As such, Catalyze, including all workforce members, does not readily have access to any ePHI.
+* healthfinch maintains a minimum necessary approach to access to Customer data. As such, healthfinch, including all workforce members, does not readily have access to any ePHI.
 
 ## Access Authorization
 
@@ -116,7 +90,7 @@ All workstations at healthfinch are company owned, and all are laptop Apple prod
 
 ## Paper Records
 
-healthfinch does not use paper records for any sensitive information. Use of paper for recording and storing sensitive data is against Catalyze policies.
+healthfinch does not use paper records for any sensitive information. Use of paper for recording and storing sensitive data is against healthfinch policies.
 
 ## Password Management
 
@@ -131,9 +105,37 @@ healthfinch does not use paper records for any sensitive information. Use of pap
 
 ## PaaS Customer Access to Systems
 
-healthfinch grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Catalyze hosted systems.
+healthfinch grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to healthfinch hosted systems.
 
-In the case of data migration, healthfinch does, on a case by case basis, support customers in importing data. In these cases Catalyze support SCP assuring all data is secured and encrypted in transit.
+In the case of data migration, healthfinch does, on a case by case basis, support customers in importing data. In these cases healthfinch support SCP assuring all data is secured and encrypted in transit.
 
-In the case of an investigation, healthfinch will assist customers, at Catalyze's discretion, and law enforcement in forensics.
+In the case of an investigation, healthfinch will assist customers, at healthfinch's discretion, and law enforcement in forensics.
 
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 01.d - User Password Management
+* 01.f - Password Use
+* 01.r - Password Management System
+* 01.a - Access Control Policy
+* 01.b - User Registration
+* 01.h - Clear Desk and Clear Screen Policy
+* 01.j - User Authentication for External Connections
+* 01.q - User Identification and Authentication
+* 01.v - Information Access Restriction
+* 02.i - Removal of Access Rights
+* 06.e - Prevention of Misuse of Information Assets
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.308a4iiC Access Establishment and Modification
+* 164.308a3iiB Workforce Clearance Procedures
+* 164.308a4iiB Access Authorization
+* 164.312d Person or Entity Authentication
+* 164.312a2i Unique User Identification
+* 164.308a5iiD Password Management
+* 164.312a2iii Automatic Logoff 
+* 164.310b Workstation Use
+* 164.310c Workstation Security
+* 164.308a3iiC Termination Procedures
+
+### Applicable Standards from the SOC2 Trust Services Principles

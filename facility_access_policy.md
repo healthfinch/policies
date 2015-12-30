@@ -1,22 +1,8 @@
 # Facility Access Policy
 
-healthfinch works with Subcontractors to assure restriction of physical access to systems used as part of the Catalyze Platform. Catalyze and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which Catalyze workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications. Physical Access to all of Catalyze facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons. All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to Catalyze’s facility.
+healthfinch works with Subcontractors to assure restriction of physical access to systems used as part of the healthfinch Platform. healthfinch and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which healthfinch workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications. Physical Access to all of healthfinch facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons. All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to healthfinch’s facility.
 
-Of note, healthfinch does not have ready access to ePHI, it provides cloud-based, compliant infrastructure to covered entities and business associates. Catalyze does not physically house any systems used by its Platform in Catalyze facilities. Physical security of our Platform servers is outlined [here](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf).
-
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 08.b - Physical Entry Controls
-* 08.d - Protecting Against External and Environmental Threats
-* 08.j - Equipment Maintenance
-* 08.l - Secure Disposal or Re-Use of Equipment
-* 09.p - Disposal of Media
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.310(a)(2)(ii) Facility Security Plan
-* 164.310(a)(2)(iii) Access Control & Validation Procedures
-* 164.310(b-c) Workstation Use & Security
+Of note, healthfinch does not have ready access to ePHI, it provides cloud-based, compliant infrastructure to covered entities and business associates. healthfinch does not physically house any systems used by its Platform in healthfinch facilities. Physical security of our Platform servers is outlined [here](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf).
 
 ## healthfinch-controlled Facility Access Policies
 
@@ -39,4 +25,20 @@ Of note, healthfinch does not have ready access to ePHI, it provides cloud-based
 9. Workstation Security
 	* Workstations may only be accessed and utilized by authorized workforce members to complete assigned job/contract responsibilities.
 	* All workforce members are required to monitor workstations and report unauthorized users and/or unauthorized attempts to access systems/applications as per the System Access Policy.
-	* All workstations purchased by healthfinch are the property of Catalyze and are distributed to users by the company.
+	* All workstations purchased by healthfinch are the property of healthfinch and are distributed to users by the company.
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 08.b - Physical Entry Controls
+* 08.d - Protecting Against External and Environmental Threats
+* 08.j - Equipment Maintenance
+* 08.l - Secure Disposal or Re-Use of Equipment
+* 09.p - Disposal of Media
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.310(a)(2)(ii) Facility Security Plan
+* 164.310(a)(2)(iii) Access Control & Validation Procedures
+* 164.310(b-c) Workstation Use & Security
+
+### Applicable Standards from the SOC2 Trust Services Principles

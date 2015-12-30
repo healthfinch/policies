@@ -1,20 +1,12 @@
 # Configuration Management Policy
 
-healthfinch standardizes and automates configuration management through the use of Salt scripts as well as documentation of all changes to production systems and networks. Salt automatically configures all Catalyze systems according to established and tested policies, and is used as part of our Disaster Recovery plan and process.
-
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 06 - Configuration Management
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.310(a)(2)(iii) Access Control & Validation Procedures
+healthfinch standardizes and automates configuration management through the use of Salt scripts as well as documentation of all changes to production systems and networks. Salt automatically configures all healthfinch systems according to established and tested policies, and is used as part of our Disaster Recovery plan and process.
 
 ## Configuration Management
 
 1. Salt is used to standardize and automate configuration management.
 2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
-3. No systems are deployed into healthfinch environments without approval of the Catalyze CTO.
+3. No systems are deployed into healthfinch environments without approval of the healthfinch CTO.
 4. All changes to production systems, network devices, and firewalls are approved by the healthfinch CTO before they are implemented. Additionally, all changes are tested before they are implemented in production.
 5. An up-to-date inventory of systems is maintained using Google spreadsheets and architecture diagrams hosted on Google Apps and Box. All systems are categorized as production and utility to differentiate based on criticality.
 6. Clocks are synchronized across all systems using NTP. Modifying time data on systems is restricted.
@@ -25,3 +17,14 @@ healthfinch standardizes and automates configuration management through the use 
 11. healthfinch also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
 12. healthfinch schedules production deployments every four weeks.
 13. All formal change requests require unique ID and authentication.
+
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 06 - Configuration Management
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.310(a)(2)(iii) Access Control & Validation Procedures
+
+### Applicable Standards from the SOC2 Trust Services Principles

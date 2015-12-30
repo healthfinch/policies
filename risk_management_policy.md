@@ -3,21 +3,9 @@
 
 This policy establishes the scope, objectives, and procedures of healthfinch's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission. 
 
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 03.a - Risk Management Program Development
-* 03.b - Performing Risk Assessments
-* 03.c - Risk Mitigation
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(1)(ii)(A) – HIPAA Security Rule Risk Analysis
-* 164.308(a)(1)(ii)(B) – HIPAA Security Rule Risk Management 
-* 164.308(a)(8) – HIPAA Security Rule Evaluation
-
 ## Risk Management Policies
 
-1. It is the policy of healthfinch to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the Catalyze's information security program.
+1. It is the policy of healthfinch to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the healthfinch's information security program.
 2. Risk analysis and risk management are recognized as important components of healthfinch’s corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
 	1. Risk assessments are done throughout product life cycles: 
 	2. Before the integration of new system technologies and before changes are made to healthfinch physical safeguards; and
@@ -30,7 +18,7 @@ This policy establishes the scope, objectives, and procedures of healthfinch's i
 	3. Protect against any reasonably anticipated uses or disclosures of Customer ePHI that are not permitted or required; and
 	4. Ensure compliance by all workforce members.
 4. Any risk remaining (residual) after other risk controls have been applied, requires sign off by the senior management and healthfinch’s Security Officer.
-5. All healthfinch workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation according to Catalyze’s policies, which is outlined in the Catalyze Policy Management Policy.
+5. All healthfinch workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation according to healthfinch’s policies, which is outlined in the healthfinch Policy Management Policy.
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of healthfinch’s Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 
@@ -123,7 +111,17 @@ This policy establishes the scope, objectives, and procedures of healthfinch's i
 * Throughout a System’s Development Life Cycle – from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
 * As Needed – the Security Officer (or other designated employee) or Risk Management Team may call for a full or partial risk assessment in response to changes in business strategies, information technology, information sensitivity, threats, legal liabilities, or other significant factors that affect healthfinch’s Platform.
 
-## Process Documentation
 
-Maintain documentation of all risk assessment, risk management, and risk mitigation efforts for a minimum of six years.
+### Applicable Standards from the HITRUST Common Security Framework
 
+* 03.a - Risk Management Program Development
+* 03.b - Performing Risk Assessments
+* 03.c - Risk Mitigation
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.308(a)(1)(ii)(A) – HIPAA Security Rule Risk Analysis
+* 164.308(a)(1)(ii)(B) – HIPAA Security Rule Risk Management 
+* 164.308(a)(8) – HIPAA Security Rule Evaluation
+
+### Applicable Standards from the SOC2 Trust Services Principles

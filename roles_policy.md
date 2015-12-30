@@ -2,16 +2,6 @@
 
 healthfinch has a Security Officer [164.308(a)(2)] and Privacy Officer  [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below.
 
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 06.d - Data Protection and Privacy of Covered Information
-* 06.g - Compliance with Security Policies and Standards
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(2) - Assigned Security Responsibility
-* 164.308(a)(5)(i) - Security Awareness and Training
-
 ## Privacy Officer
 
 The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
@@ -68,7 +58,7 @@ The current healthfinch Security Officer is Benjamin Uphoff ([ben@catalyze.io](m
 
 The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to healthfinch’s efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks.  The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI.  These organizational responsibilities include, but are not limited to the following:
 
-1. Oversees and enforces all activities necessary to maintain compliance and verifies the activities are in alignment with the requirements.
+1. Oversees and enforces all activities necessary to maintain compliance and verifies the activities are in alignment with the requirements
 
 2. Helps to established and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
 
@@ -89,7 +79,7 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 11. Maintains a program promoting workforce members to report non-compliance with policies and procedures.
 	1. Promptly, properly, and consistently investigates and addresses reported violations and takes steps to prevent recurrence.
 	2. Applies consistent and appropriate sanctions against workforce members who fail to comply with the security policies and procedures of healthfinch.
-	3. Mitigates, to the extent practicable, any harmful effect known to healthfinch of a use or disclosure of ePHI in violation of Catalyze’s policies and procedures, even if effect is the result of actions of Catalyze business associates, customers, and/or partners. 
+	3. Mitigates, to the extent practicable, any harmful effect known to healthfinch of a use or disclosure of ePHI in violation of healthfinch’s policies and procedures, even if effect is the result of actions of healthfinch business associates, customers, and/or partners. 
 
 12. Reports security efforts and incidents to administration immediately upon discovery. Responsibilities in the case of a known ePHI breach are documented in the [healthfinch Breach Policy](./#breach).
 
@@ -137,3 +127,14 @@ All workforce members report non-compliance of healthfinch’s policies and proc
 
 5. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation. 
 
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 06.d - Data Protection and Privacy of Covered Information
+* 06.g - Compliance with Security Policies and Standards
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.308(a)(2) - Assigned Security Responsibility
+* 164.308(a)(5)(i) - Security Awareness and Training
+
+### Applicable Standards from the SOC2 Trust Services Principles

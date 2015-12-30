@@ -1,15 +1,7 @@
 # Policy Management Policy
 
-healthfinch implements policies and procedures to maintain compliance and integrity of data. The Security Officer and Privacy Officer are responsible for maintaining policies and procedures and assuring all Catalyze workforce members, business associates, customers, and partners are adherent to all applicable policies. Previous versions of polices are retained to assure ease of finding policies at specific historic dates in time.
+healthfinch implements policies and procedures to maintain compliance and integrity of data. The Security Officer and Privacy Officer are responsible for maintaining policies and procedures and assuring all healthfinch workforce members, business associates, customers, and partners are adherent to all applicable policies. Previous versions of polices are retained to assure ease of finding policies at specific historic dates in time.
 
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 12.c - Developing and Implementing Continuity Plans Including Information Security
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.316(a) - Policies and Procedures
-* 164.316(b)(1)(i) - Documentation
 
 ## Maintenance of Policies
 
@@ -22,6 +14,17 @@ healthfinch implements policies and procedures to maintain compliance and integr
 	1. Version history of all healthfinch policies is done via Github.
 	2. Backup storage of all policies is done with Box.
 6. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by healthfinch management to assure all risks and potential gaps are mitigated and/or fully addressed. The policy review form can be found [here](https://docs.google.com/a/catalyze.io/forms/d/1kuyIYA-Z-tmRdfMwrVMl59BujIy9y1dyjMSd8_Wy760/viewform).
-7. healthfinch utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Catalyze also tracks compliance with HIPAA and publishes results [here](https://catalyze.io/hipaa/).
+7. healthfinch utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. healthfinch also tracks compliance with HIPAA and publishes results [here](https://catalyze.io/hipaa/).
 
 Additional documentation related to maintenance of policies is outlined in the Security officers responsibilities.
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 12.c - Developing and Implementing Continuity Plans Including Information Security
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.316(a) - Policies and Procedures
+* 164.316(b)(1)(i) - Documentation
+
+### Applicable Standards from the SOC2 Trust Services Principles

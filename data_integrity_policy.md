@@ -1,14 +1,6 @@
 # Data Integrity Policy
 
-healthfinch takes data integrity very seriously. As stewards and partners of Catalyze Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical settings in support of the Catalyze mission of data protection.
-
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 10.b - Input Data Validation
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(8) - Evaluation
+healthfinch takes data integrity very seriously. As stewards and partners of healthfinch Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical settings in support of the healthfinch mission of data protection.
 
 ## Data integrity Policy
 
@@ -58,3 +50,13 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * Encryption keys are limited to use for one year and then must be regenerated.
 * In the case of healthfinch provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
 * System logs of all transmissions of Production Data access. These logs must be available for audit.
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 10.b - Input Data Validation
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.308(a)(8) - Evaluation
+
+### Applicable Standards from the SOC2 Trust Services Principles

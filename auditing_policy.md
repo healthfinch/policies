@@ -1,9 +1,9 @@
 
 # Auditing Policy
 
-healthfinch shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI. Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Catalyze shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
+healthfinch shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI. Audit activities may be limited by application, system, and/or network auditing capabilities and resources. healthfinch shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
 
-It is the policy of healthfinch to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, Catalyze shall audit access and activity to detect, report, and guard against:
+It is the policy of healthfinch to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, healthfinch shall audit access and activity to detect, report, and guard against:
 
 * Network vulnerabilities and intrusions;
 * Breaches in confidentiality and security of patient protected health information;
@@ -11,27 +11,7 @@ It is the policy of healthfinch to safeguard the confidentiality, integrity, and
 * Improper alteration or destruction of ePHI;
 * Out of date software and/or software known to have vulnerabilities.
 
-This policy applies to all healthfinch Add-on systems, including BaaS, that store, transmit, or process ePHI. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Logging Service. 
-
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 0.a Information Security Management Program
-* 01.a Access Control Policy
-* 01.b User Registration
-* 01.c Privilege Management
-* 09.aa Audit Logging
-* 09.ac Protection of Log Information
-* 09.ab - Monitoring System Use
-* 06.e - Prevention of Misuse of Information
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 45 CFR ¬ß 164.308(a)(1)(ii)(D) - Information System Activity Review
-* 45 CFR ¬ß 164.308(a)(5)(ii)(B) & (C) - Protection from Malicious Software & Log-in Monitoring
-* 45 CFR ¬ß 164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
-* 45 CFR ¬ß 164.312(b) - Audit Controls
-* 45 CFR ¬ß 164.312(c)(2) - Mechanism to Authenticate ePHI
-* 45 CFR ¬ß 164.312(e)(2)(i) - Integrity Controls
+This policy applies to all healthfinch Add-on systems, including BaaS, that store, transmit, or process ePHI. This policy, and associated procedures, do not apply to PaaS Customers that do not choose healthfinch Logging Service. 
 
 # Auditing Policies
 
@@ -40,17 +20,17 @@ This policy applies to all healthfinch Add-on systems, including BaaS, that stor
 	* Assign the task of reviewing the audit reports to the workforce member responsible for the application, system, or network, the Privacy Officer, or any other individual determined to be appropriate for the task;
 	* Organize and provide oversight to a team structure charged with audit compliance activities (e.g., parameters, frequency, sample sizes, report formats, evaluation, follow-up, etc.).
 	* All connections to healthfinch are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis. 
-2. healthfinch’s auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Customers, Application and User level auditing is the responsibility of the Customer; Catalyze provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
+2. healthfinch’s auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Customers, Application and User level auditing is the responsibility of the Customer; healthfinch provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
 	* User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
 	* Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
 	* System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. healthfinch utilizes file system monitoring from OSSEC to assure the integrity of file system data.
 	* Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
-3. healthfinch shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Catalyze.
+3. healthfinch shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to healthfinch.
 4. healthfinch utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to Kibana, the centralized logging service that we use.
 5. healthfinch leverages process monitoring tools throughout its environment.
 6. healthfinch treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
 7. healthfinch uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
-8. healthfinch shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information. The “events” may be applied to the entire Catalyze Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
+8. healthfinch shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information. The “events” may be applied to the entire healthfinch Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
 9. In addition to trigger events, healthfinch utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
 10. Logs are reviewed weekly by Security Officer. 
 11. healthfinch’s Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
@@ -76,7 +56,7 @@ This policy applies to all healthfinch Add-on systems, including BaaS, that stor
 2. A request for an audit for specific cause must include time frame, frequency, and nature of the request. The request must be reviewed and approved by healthfinch’s Privacy or Security Officer.
 3. A request for an audit must be approved by healthfinch’s Privacy Officer and/or Security Officer before proceeding. Under no circumstances shall detailed audit information be shared with parties without proper permissions and access to see such data.
 	* Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with healthfinch’s Security Officer to determine appropriate sanction/ corrective disciplinary action.
-	* Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by healthfinch’s Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that Catalyze consider seeking risk management and/or legal counsel.
+	* Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by healthfinch’s Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that healthfinch consider seeking risk management and/or legal counsel.
 
 ## Review and Reporting of Audit Findings
 
@@ -90,7 +70,7 @@ This policy applies to all healthfinch Add-on systems, including BaaS, that stor
 
 ## Auditing Customer and Partner Activity
 
-1. Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between healthfinch and the 3rd party. Catalyze will make every effort to assure Customers and Partners do not gain access to data outside of their own Environments. 
+1. Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between healthfinch and the 3rd party. healthfinch will make every effort to assure Customers and Partners do not gain access to data outside of their own Environments. 
 2. If it is determined that the Customer or Partner has exceeded the scope of access privileges, healthfinch’s leadership must remedy the problem immediately.
 3. If it is determined that a Customer or Partner has violated the terms of the HIPAA business associate agreement or any terms within the HIPAA regulations, healthfinch must take immediate action to remediate the situation. Continued violations may result in discontinuation of the business relationship.
 
@@ -99,12 +79,12 @@ This policy applies to all healthfinch Add-on systems, including BaaS, that stor
 4. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
 5. All audit logs are encrypted in transit and at rest to control access to the content of the logs. 
 6. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
-7. For PaaS Customers choosing to use healthfinch logging services, log data will be separated from the log data of other Catalyze Customers.
+7. For PaaS Customers choosing to use healthfinch logging services, log data will be separated from the log data of other healthfinch Customers.
 
 ## Workforce Training, Education, Awareness and Responsibilities
 
-1. healthfinch workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and ePHI. Catalyze’s commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. Catalyze workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member’s failure to comply with organizational policies.
-2. healthfinch Customers are provided with necessary information to understand Catalyze auditing capabilities, and PaaS Customers can choose the level of logging and auditing that Catalyze will implement on their behalf.
+1. healthfinch workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and ePHI. healthfinch’s commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. healthfinch workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member’s failure to comply with organizational policies.
+2. healthfinch Customers are provided with necessary information to understand healthfinch auditing capabilities, and PaaS Customers can choose the level of logging and auditing that healthfinch will implement on their behalf.
 
 ## External Audits of Information Access and Activity
 
@@ -135,3 +115,26 @@ B. Available storage space.
 * Remote access use and activity.
 * Activity post termination.
 * Random audits.
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 0.a Information Security Management Program
+* 01.a Access Control Policy
+* 01.b User Registration
+* 01.c Privilege Management
+* 09.aa Audit Logging
+* 09.ac Protection of Log Information
+* 09.ab - Monitoring System Use
+* 06.e - Prevention of Misuse of Information
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 45 CFR ¬ß 164.308(a)(1)(ii)(D) - Information System Activity Review
+* 45 CFR ¬ß 164.308(a)(5)(ii)(B) & (C) - Protection from Malicious Software & Log-in Monitoring
+* 45 CFR ¬ß 164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
+* 45 CFR ¬ß 164.312(b) - Audit Controls
+* 45 CFR ¬ß 164.312(c)(2) - Mechanism to Authenticate ePHI
+* 45 CFR ¬ß 164.312(e)(2)(i) - Integrity Controls
+
+### Applicable Standards from the SOC2 Trust Services Principles
+

@@ -1,16 +1,6 @@
 # IDS Policy
 
-In order to preserve the integrity of data that healthfinch stores, processes, or transmits for Customers, Catalyze implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. Catalyze currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
-
-## Applicable Standards from the HITRUST Common Security Framework
-
-*  09.ab - Monitoring System Use
-*  06.e - Prevention of Misuse of Information
-*  10.h - Control of Operational Software
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.312(b) - Audit Controls
+In order to preserve the integrity of data that healthfinch stores, processes, or transmits for Customers, healthfinch implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. healthfinch currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
 
 ## Intrusion Detection Policy
 
@@ -22,3 +12,15 @@ In order to preserve the integrity of data that healthfinch stores, processes, o
 * All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
 * healthfinch utilizes redundant firewall on network perimeters.
 * Static IP addresses are used for healthfinch servers.
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+*  09.ab - Monitoring System Use
+*  06.e - Prevention of Misuse of Information
+*  10.h - Control of Operational Software
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.312(b) - Audit Controls
+
+### Applicable Standards from the SOC2 Trust Services Principles

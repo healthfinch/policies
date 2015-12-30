@@ -1,6 +1,6 @@
 # Disaster Recovery Policy
 
-The healthfinch Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the Catalyze Security Officer and Privacy Officer.
+The healthfinch Contingency Plan establishes procedures to recover healthfinch following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the healthfinch Security Officer and Privacy Officer.
 
 The following objectives have been established for this plan: 
 
@@ -35,17 +35,9 @@ healthfinch defined two categories of systems from a disaster recovery perspecti
 1. *Critical Systems*. These systems host application servers and database servers or are required for functioning of systems that host application servers and database servers. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
 2. *Non-critical Systems*. These are all systems not considered critical by definition above. These systems, while they may affect the performance and overall security of critical systems, do not prevent Critical systems from functioning and being accessed appropriately. These systems are restored at a lower priority than critical systems.
 
-## Applicable Standards from the HITRUST Common Security Framework
-
-* 12.c - Developing and Implementing Continuity Plans Including Information Security
-
-## Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(7)(i) - Contingency Plan
-
 ## Line of Succession
 
-The following order of succession to ensure that decision-making authority for the healthfinch Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Ben Uphoff, and VP of Engineering, Nick Mistry, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Catalyze Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession to ensure that decision-making authority for the healthfinch Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Ben Uphoff, and VP of Engineering, Nick Mistry, are responsible for ensuring the safety of personnel and the execution of procedures documented within this healthfinch Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
 * Ben Uphoff, CTO: 414-335-0253, ben@catalyze.io
 * Nick Mistry, VP of Engineering: 210-452-5630, nick@catalyze.io
@@ -56,7 +48,7 @@ The following order of succession to ensure that decision-making authority for t
 
 The following teams have been developed and trained to respond to a contingency event affecting the IT system. 
 
-1. The **Ops Team** is responsible for recovery of the healthfinch hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Catalyze. The team leader is the VP of Engineering and directs the Dev Ops Team. 
+1. The **Ops Team** is responsible for recovery of the healthfinch hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of healthfinch. The team leader is the VP of Engineering and directs the Dev Ops Team. 
 2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
 
 ## Testing and Maintenance
@@ -79,7 +71,7 @@ The primary objective of the technical test is to ensure the communication proce
 
 ## 1. Notification and Activation Phase
 
-This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to healthfinch. Based on the assessment of the Event, sometimes according to the Catalyze Incident Response Policy, the Contingency Plan may be activated by either the CTO or VP of Engineering.
+This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to healthfinch. Based on the assessment of the Event, sometimes according to the healthfinch Incident Response Policy, the Contingency Plan may be activated by either the CTO or VP of Engineering.
 
 The notification sequence is listed below:
 
@@ -121,7 +113,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 
 ## 3. Reconstitution Phase
 
-This section discusses activities necessary for restoring healthfinch operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, Catalyze operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
+This section discusses activities necessary for restoring healthfinch operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, healthfinch operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration
 	* Begin replication of new environment using automated and tested scrips, currently Salt. - Dev Ops
@@ -133,4 +125,14 @@ This section discusses activities necessary for restoring healthfinch operations
 
 2. Plan Deactivation
 
-If the healthfinch environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Catalyze Media Disposal Policy. 
+If the healthfinch environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the healthfinch Media Disposal Policy. 
+
+### Applicable Standards from the HITRUST Common Security Framework
+
+* 12.c - Developing and Implementing Continuity Plans Including Information Security
+
+### Applicable Standards from the HIPAA Security Rule
+
+* 164.308(a)(7)(i) - Contingency Plan
+
+### Applicable Standards from the SOC2 Trust Services Principles
