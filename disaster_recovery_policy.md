@@ -1,6 +1,6 @@
 # Disaster Recovery Policy
 
-The healthfinch Contingency Plan establishes procedures to recover healthfinch following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the healthfinch Security Officer and Privacy Officer.
+The healthfinch Contingency Plan establishes procedures to recover healthfinch following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the healthfinch Security Officer in conjuntion with the healthfinch Privacy Officer.
 
 The following objectives have been established for this plan: 
 
@@ -14,7 +14,7 @@ The following objectives have been established for this plan:
 5. Ensure coordination with other healthfinch staff who will participate in the contingency planning strategies.
 6. Ensure coordination with external points of contact and vendors who will participate in the contingency planning strategies. 
 
-This healthfinch Contingency Plan has been developed as required under the Office of Management and Budget (OMB) Circular A-130, Management of Federal Information Resources, Appendix III, November 2000, and the Health Insurance Portability and Accountability Act (HIPAA) Final Security Rule, Section §164.308(a)(7), which requires the establishment and implementation of procedures for responding to events that damage systems containing electronic protected health information. 
+This healthfinch Contingency Plan has been developed as required under the Office of Management and Budget (OMB) Circular A-130, Management of Federal Information Resources, Appendix III, November 2000, and the Health Insurance Portability and Accountability Act (HIPAA) Final Security Rule, Section §164.308(a)(7), which requires the establishment and implementation of procedures for responding to events that damage systems containing electronic protected health information (ePHI).
 
 This healthfinch Contingency Plan is created under the legislative requirements set forth in the Federal Information Security Management Act (FISMA) of 2002 and the guidelines established by the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-34, titled "Contingency Planning Guide for Information Technology Systems" dated June 2002.
  
@@ -30,30 +30,30 @@ The healthfinch Contingency Plan also complies with the following federal and de
 
 Example of the types of disasters that would initiate this plan are natural disaster, political disturbances, man made disaster, external human threats, internal malicious activities.
 
-healthfinch defined two categories of systems from a disaster recovery perspective.
+healthfinch defines two categories of systems from a disaster recovery perspective:
 
 1. *Critical Systems*. These systems host application servers and database servers or are required for functioning of systems that host application servers and database servers. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
 2. *Non-critical Systems*. These are all systems not considered critical by definition above. These systems, while they may affect the performance and overall security of critical systems, do not prevent Critical systems from functioning and being accessed appropriately. These systems are restored at a lower priority than critical systems.
 
 ## Line of Succession
 
-The following order of succession to ensure that decision-making authority for the healthfinch Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Ben Uphoff, and VP of Engineering, Nick Mistry, are responsible for ensuring the safety of personnel and the execution of procedures documented within this healthfinch Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession to ensure that decision-making authority for the healthfinch Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Jonathan Broad, and VP of Product and Privacy Officer, Chris Tyne, are responsible for ensuring the safety of personnel and the execution of procedures documented within this healthfinch Contingency Plan. If the CTO and VP of Product are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or COO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
-* Ben Uphoff, CTO: 414-335-0253, ben@catalyze.io
-* Nick Mistry, VP of Engineering: 210-452-5630, nick@catalyze.io
-* Travis Good, CEO: 303-351-2640, travis@catalyze.io
+* Jonathan Broad, CTO: 608-320-1569, jb@healthfinch.com
+* Chris Tyne, VP of Product: 908-419-5111, chris@healthfinch.com
 * Mohan Balachandran, CPO: 214-215-7998, mohan@catalyze.io
 
 ## Responsibilities
 
 The following teams have been developed and trained to respond to a contingency event affecting the IT system. 
 
-1. The **Ops Team** is responsible for recovery of the healthfinch hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of healthfinch. The team leader is the VP of Engineering and directs the Dev Ops Team. 
-2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
+1. The **Ops Team** is responsible for recovery of the healthfinch hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of healthfinch.
+2. The **Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment.
+3. The **Customer Success Team** is responsible for communication between affected customers and healthfinch.
 
 ## Testing and Maintenance
 
-The CTO and VP of Engineering shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan’s execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include tabletop and technical testing. Contingency Plans for all application systems must be tested at a minimum using the tabletop testing process. However, if the application system Contingency Plan is included in the technical testing of their respective support systems that technical test will satisfy the annual requirement.
+The CTO shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan’s execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include tabletop and technical testing. Contingency Plans for all application systems must be tested at a minimum using the tabletop testing process. However, if the application system Contingency Plan is included in the technical testing of their respective support systems that technical test will satisfy the annual requirement.
 
 ### Tabletop Testing
 
@@ -71,17 +71,17 @@ The primary objective of the technical test is to ensure the communication proce
 
 ## 1. Notification and Activation Phase
 
-This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to healthfinch. Based on the assessment of the Event, sometimes according to the healthfinch Incident Response Policy, the Contingency Plan may be activated by either the CTO or VP of Engineering.
+This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to healthfinch. Based on the assessment of the Event, sometimes according to the healthfinch Incident Response Policy, the Contingency Plan may be activated by the CTO or the VP of Product.
 
 The notification sequence is listed below:
 
 * The first responder is to notify the CTO. All known information must be relayed to the CTO.
-* The VP of Engineering is to contact the Web Services Team and inform them of the event. The CTO is to to begin assessment procedures.
+* The CTO is to contact the Services Team and inform them of the event. The CTO is to to begin assessment procedures.
 * The CTO is to notify team members and direct them to complete the assessment procedures outlined below to determine the extent of damage and estimated recovery time. If damage assessment cannot be performed locally because of unsafe conditions, the CTO is to following the steps below.
 	* Damage Assessment Procedures:
-	* The CTO and VP of Engineering are to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
+	* The CTO is to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
 	* Alternate Assessment Procedures:
-	* Upon notification from the CTO, the VP of Engineering is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams. 
+	* Upon notification from the CTO, the VP of Product is to follow the procedures for damage assessment with combined Ops and Services Teams. 
 * The healthfinch Contingency Plan is to be activated if one or more of the following criteria are met:
 	* healthfinch will be unavailable for more than 48 hours.
 	* Hosting facility is damaged and will be unavailable for more than 24 hours.
@@ -90,7 +90,7 @@ The notification sequence is listed below:
 	* Upon notification from the CTO, group leaders and managers are to notify their respective teams. Team members are to be informed of all applicable information and prepared to respond and relocate if necessary.
 	* The CTO is to notify the hosting facility partners that a contingency event has been declared and to ship the necessary materials (as determined by damage assessment) to the alternate site.
 	* The CTO is to notify remaining personnel and executive leadership on the general status of the incident.
-	* Notification can be message, email, or phone.
+	* Notification can be message, email, company chat, or phone.
 
 ## 2. Recovery Phase
 
@@ -102,26 +102,26 @@ Recovery Goal: The goal is to rebuild healthfinch infrastructure to a production
 
 The tasks outlines below are not sequential and some can be run in parallel.
 
-1. Contact Partners and Customers affected - Web Services
-2. Assess damage to the environment - Web Services
-3. Begin replication of new environment using automated and tested scrips, currently Salt. A this point it is determined whether to recover in AWS or in Rackspace. - Dev Ops
-4. Test new environment using pre-written tests - Web Services
-5. Test logging, security, and alerting functionality - Dev Ops
-6. Assure systems are appropriately patched and up to date. - Dev Ops
-7. Deploy environment to production - Web Services
-8. Update DNS to new environment. - Dev Ops
+1. Contact Partners and Customers affected - Customer Success
+2. Assess damage to the environment - Services
+3. Begin replication of new environment using automated and tested scrips, currently Salt. A this point it is determined what region to recover in within AWS. - Ops
+4. Test new environment using pre-written tests - Services
+5. Test logging, security, and alerting functionality - Ops
+6. Assure systems are appropriately patched and up to date. - Ops
+7. Deploy environment to production - Services
+8. Update DNS to new environment. - Ops
 
 ## 3. Reconstitution Phase
 
 This section discusses activities necessary for restoring healthfinch operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, healthfinch operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration
-	* Begin replication of new environment using automated and tested scrips, currently Salt. - Dev Ops
-	* Test new environment using pre-written tests. - Web Services
-	* Test logging, security, and alerting functionality. - Dev Ops
-	* Deploy environment to production - Web Services
-	* Assure systems are appropriately patched and up to date. - Dev Ops
-	* Update DNS to new environment. - Dev Ops
+	* Begin replication of new environment using automated and tested scripts, currently Chef. - Ops
+	* Test new environment using pre-written tests. - Services
+	* Test logging, security, and alerting functionality. - Ops
+	* Deploy environment to production - Services
+	* Assure systems are appropriately patched and up to date. - Ops
+	* Update DNS to new environment. - Ops
 
 2. Plan Deactivation
 
@@ -136,3 +136,5 @@ If the healthfinch environment is moved back to the original site from the alter
 * 164.308(a)(7)(i) - Contingency Plan
 
 ### Applicable Standards from the SOC2 Trust Services Principles
+
+* Common Controls (CC) 3.2
