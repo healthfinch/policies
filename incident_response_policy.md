@@ -19,13 +19,13 @@ The healthfinch incident response process follows the process recommended by SAN
 
 1. Immediately upon observation healthfinch members report suspected and known Precursors, Events, Indications, and Incidents in one of the following ways:
 	1. Direct report to management, the Security Officer, Privacy Officer, or other;
-	2. Email;
+	2. Email (security@healthfinch.com);
 	3. Phone call;
-	4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
 	5. Secure Chat.
 	6. Anonymously through workforce members desired channels.
+    7. An 800 number for anonymous feedback which will be brought to the attention of at least one outside consultant or board member
 	7. The individual receiving the report facilitates completion of an [Incident Identification form](./incident.form.pdf) and notifies the Security Officer (if not already done).
-	8. The Security Officer determines if the issue is a Precursor, Incident, Event, or Incident.
+	8. The Security Officer determines if the issue is a Precursor, Event, Indicator or Incident.
 	9. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
 		1. Non-Technical Event (minor infringement): the Security Officer completes a SIR Form (see Appendix 2) and investigates the incident.
 		2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
@@ -56,10 +56,10 @@ In this Phase, healthfinch’s IT department attempts to contain the security in
 		1. Complete any documentation relative to the security incident on the SIR Form.
 		2. Move to Phase V, Follow-up.	
 	8. If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.
-	9. The individual completing this phase provides written communication to the SIRT.
+	9. The individual completing this phase provides written communication to the SIRnnT.
 4. Continuously apprise Senior Management of progress.
 5. Continue to notify affected Customers and Partners with relevant updates as needed
-
+n
 ### Eradication Phase (Technical)
 
 The Eradication Phase represents the SIRT’s effort to remove the cause, and the resulting security exposures, that are now on the affected system(s).
@@ -114,7 +114,6 @@ Individuals needed and responsible to respond to a security incident make up a S
 * Security Officer
 * Privacy Officer
 * Senior Management
-* VP of Engineering
 
 ### Applicable Standards from the HITRUST Common Security Framework
 
