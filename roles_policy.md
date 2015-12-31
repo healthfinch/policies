@@ -11,14 +11,14 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current healthfinch Privacy Officer is Travis Good ([travis@catalyze.io](mailto:travis@catalyze.io)).
+The current healthfinch Privacy Officer is Chris Tyne ([chris@healthfinch.com](mailto:chris@healthfinch.com)).
 
 ## Workforce Training Responsibilities
 
 1. The Privacy Officer facilitates the training of all workforce members as follows:
-	1. New workforce members within their first month of employment;
+	1. New workforce members within their first week of employment;
 	2. Existing workforce members annually;
-	3. Existing workforce members whose functions are affected by a material change in the policies and procedures, within a month after the material change becomes effective;
+	3. Existing workforce members whose functions are affected by a material change in the policies and procedures, within a week after the material change becomes effective;
 	4. Existing workforce members as needed due to changes in security and risk posture of healthfinch.
 
 2. The Security Officer or designee maintains documentation of the training session materials and attendees for a minimum of six years. 
@@ -52,15 +52,15 @@ The current healthfinch Privacy Officer is Travis Good ([travis@catalyze.io](mai
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of healthfinch security policies and non-compliance with the security regulations [164.308(a)(1)(ii)(c)], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
-The current healthfinch Security Officer is Benjamin Uphoff ([ben@catalyze.io](mailto:ben@catalyze.io)).
+The current healthfinch Security Officer is Jonathan Broad ([jb@healthfinch.com](mailto:jb@healthfinch.com)).
 
 ## Organizational Responsibilities
 
-The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to healthfinch’s efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks.  The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI.  These organizational responsibilities include, but are not limited to the following:
+The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to healthfinch’s efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, SOC2 TSPs and any other security and compliance frameworks.  The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI.  These organizational responsibilities include, but are not limited to the following:
 
 1. Oversees and enforces all activities necessary to maintain compliance and verifies the activities are in alignment with the requirements
 
-2. Helps to established and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
+2. Helps to establish and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
 
 3. Updates policies and procedures as necessary and appropriate to maintain compliance and maintains changes made for six years from the date of creation or date it was last in effect, whichever is later.
 
@@ -74,7 +74,7 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 
 9. Develops and provides periodic security updates and reminder communications for all workforce members.
 
-10. Implements procedures for the authorization and/or supervision of workforce members who work with ePHI or in locations where it may be accessed.
+10. Implements procedures for the authorization and/or supervision of workforce members who work with ePHI or in locations where it may be accessed, including defining roles to limit access by the type of work being done.
 
 11. Maintains a program promoting workforce members to report non-compliance with policies and procedures.
 	1. Promptly, properly, and consistently investigates and addresses reported violations and takes steps to prevent recurrence.
@@ -97,7 +97,7 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 	11. Media Disposal and/or Re-use;
 	12. Documentation requirements.
 
-## Supervision of Workforce Responsibilities
+## Supervision of Workforce Responsibilitiesn
 
 Although the Security Officer is responsible for implementing and overseeing all activities related to maintaining compliance, it is the responsibility of all workforce members (i.e. team leaders, supervisors, managers, directors, co-workers, etc.) to supervise all workforce members and any other user of healthfinch’s systems, applications, servers, workstations, etc. that contain ePHI.
 
