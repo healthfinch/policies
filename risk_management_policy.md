@@ -1,4 +1,3 @@
-
 # Risk Management Policy
 
 This policy establishes the scope, objectives, and procedures of healthfinch's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission. 
