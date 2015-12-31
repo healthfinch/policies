@@ -9,6 +9,7 @@ Despite not being a requirement within HIPAA, healthfinch understand and appreci
 ## Data Retention Policy
 
 * Current healthfinch Customers have data stored by healthfinch as a part of the healthfinch Service.
+* Unless otherwise agreed in writing, healthfinch reserves the right to dispose of data after 1 year if it is no longer necessary to Services provided to the Customer
 * Once a Customer ceases to be a Customer, as defined below, the following steps are 
 	1. Customer is sent a notice via email of change of standing, and given the option to reinstate account.
 	2. If no response to notice in #1 above within 7 days, or if Customer responds they do not want to reinstate account, Customer is sent directions for how to download their data from healthfinch and/or to have healthfinch continue to store the data at a rate of $25/month for up to 100GB. If there is more than 100GB of data, healthfinch will work with Customer to determine storage costs.
