@@ -26,7 +26,3 @@ healthfinch is committed to ensuring all workforce members actively address secu
 ### Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(5)(i) - Security Awareness and Training
-
-### Applicable Standards from the SOC2 Trust Services Principles
-
-* Common Controls (CC) 1.4

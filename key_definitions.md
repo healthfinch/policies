@@ -16,8 +16,6 @@
 
 * *Backup*: The process of making an electronic copy of data stored in a computer system. This can either be complete, meaning all data and programs, or incremental, including just the data that changed from the previous backup.
 
-* *Backup Service*: A logging service for unifying system and application logs, encrypting them, and providing a dashboard for them. Offered with all healthfinch Add-ons and as an option for PaaS Customers.
-
 * *Breach*: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. For purpose of this definition, “compromises the security or privacy of the PHI” means poses a significant risk of financial, reputational, or other harm to the individual. A use or disclosure of PHI that does not include the identifiers listed at §164.514(e)(2), limited data set, date of birth, and zip code does not compromise the security or privacy of the PHI. Breach excludes:
 
 	1. Any unintentional acquisition, access or use of PHI by a workforce member or person acting under the authority of a Covered Entity (CE) or Business Associate (BA) if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under the Privacy Rule.
@@ -77,7 +75,7 @@
 
 * *Organization*: For the purposes of this policy, the term “organization” shall mean healthfinch.
 
-* *Partner*: Contractual bound 3rd party vendor with integration with the healthfinch Platform. May offer Add-on services.
+* *Partner*: Contractual bound 3rd party vendor with integration with the healthfinch Platform.
 
 * *Platform*: The overall technical environment of healthfinch.
 

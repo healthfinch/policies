@@ -26,5 +26,3 @@ Violation of this policy and its procedures by workforce members may result in c
 * 164.308(a)(7)(ii)(A) - Data Backup Plan
 * 164.310(d)(2)(iii) - Accountability
 * 164.310(d)(2)(iv) - Data Backup and Storage
-
-### Applicable Standards from the SOC2 Trust Services Principles

@@ -122,5 +122,3 @@ This policy establishes the scope, objectives, and procedures of healthfinch's i
 * 164.308(a)(1)(ii)(A) – HIPAA Security Rule Risk Analysis
 * 164.308(a)(1)(ii)(B) – HIPAA Security Rule Risk Management 
 * 164.308(a)(8) – HIPAA Security Rule Evaluation
-
-### Applicable Standards from the SOC2 Trust Services Principles

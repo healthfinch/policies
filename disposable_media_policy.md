@@ -25,7 +25,3 @@ healthfinch utilizes dedicated hardware from Subcontractors. ePHI is only stored
 ### Applicable Standards from the HIPAA Security Rule
 
 * 164.310(d)(1) - Device and Media Controls
-
-### Applicable Standards from the SOC2 Trust Services Principles
-
-* Common Control (CC) 5.7

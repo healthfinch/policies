@@ -69,7 +69,7 @@ Sincerely,
 
 Jonathan Broad
 CTO - healthfinch, Inc
-jbs@healthfinch.com
+jb@healthfinch.com
 608-320-1569
 
 ### Applicable Standards from the HITRUST Common Security Framework
@@ -83,5 +83,3 @@ jbs@healthfinch.com
 * HITECH Notification in the Case of Breach - 13402(a) and 13402(b)
 * HITECH Timeliness of Notification - 13402(d)(1)
 * HITECH Content of Notification - 13402(f)(1)
-
-### Applicable Standards from the SOC2 Trust Services Principles
